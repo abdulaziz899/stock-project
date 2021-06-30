@@ -1,0 +1,55 @@
+.smallContainers button{
+    border: .5px solid #bdbdbd;
+    background-color: honeydew;
+    border-radius: 2px;
+    color: rgb(223, 210, 210);
+    margin: 1px;
+}
+
+.smallContainers{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boxContent2 button{
+    visibility: hidden;
+}
+
+.smallContainers div{
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 12px;
+    color: #b4b4b4;
+}
+.smallContainers:hover .boxContent2 button{
+    visibility: visible;
+}
+.hideButton{
+    display: none;
+}
+#modals{
+    width: 20px;
+    height: 200px;
+    display: none;
+}
+#modalBOX{
+    width: 250px;
+    height: 300px;
+    margin-left: 270px;
+   
+}
+.openBox{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(235, 227, 227);
+}
+.openBox p{
+    padding: 0px 10px;
+}
+.verticalLine{
+    border-right: 1px solid rgb(138, 58, 58);
+    padding-right: 40px;
+}
